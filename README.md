@@ -8,10 +8,21 @@ ShapeView is an Android library that provides ability to setup views with shape 
 
 ## Getting Started
 
-To start using ShapeView follow next steps:
-  1. Gradle
-  2. Usage
-  3. FAQ
+1. Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.AndreyTurcevich:ShapeView:Tag'
+}
+```
 
 ## License
 
