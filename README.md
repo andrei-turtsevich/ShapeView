@@ -1,4 +1,4 @@
-# Welcome to ShapeView
+# Welcome to ShapeView [![Maven Central](https://img.shields.io/jitpack/v/github/AndreyTurcevich/ShapeView.svg)](https://img.shields.io/jitpack/v/github/AndreyTurcevich/ShapeView.svg)
 
 ## What's ShapeView
 
@@ -20,9 +20,24 @@ allprojects {
 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.AndreyTurcevich:ShapeView:Tag'
+    implementation 'com.github.AndreyTurcevich:ShapeView:x.y.z'
 }
 ```
+(Please replace `x`, `y` and `z` with the latest version numbers: [![Maven Central](https://img.shields.io/jitpack/v/github/AndreyTurcevich/ShapeView.svg)](https://img.shields.io/jitpack/v/github/AndreyTurcevich/ShapeView.svg)
+
+## Usage
+
+```xml
+<com.appogon.lib.ShapeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        app:shapePath="M150 0 L75 200 L225 200 Z" />
+```
+
+## Result
+
+![ShapeViewExample](https://github.com/AndreyTurcevich/ShapeView/blob/master/triangle_shape_result.jpg)
 
 ## License
 
